@@ -1,3 +1,30 @@
 <resources>
     <string name="app_name">Movies</string>
+    <string name="Popular_title">Popular Movies</string>
+    <string name="Top_Rated_title">Top Rated Movies</string>
+    <string name="Url_key">searchSettings</string>
+    <string name="settings_key">settings</string>
+    <string name="No_Internet_Connection">No Internet Connection</string>
+    <string name="Title_Label">Title</string>
+    <string name="Rating_Label">8</string>
+    <string name="Date_Label">12–06–2020</string>
+    <string name="Synopsis">The near future, a time when both hope and hardships drive humanity to look to the stars and beyond. While a mysterious phenomenon menaces to destroy life on planet Earth, astronaut Roy McBride undertakes a mission across the immensity of space and its many perils to uncover the truth about a lost expedition that decades before boldly faced emptiness and silence in search of the unknown.</string>
+    <string name="Synopsis_Label">Synopsis:</string>
+    <string name="Trailers_Label">Trailers</string>
+    <string name="Reviews_Label">Reviews</string>
+    <string name="Favourite_Button">Favourite</string>
+    <string name="trailer_title">Official Trailer #1</string>
+    <string name="youtube">Youtube</string>
+    <string name="play_trailer">Play Trailer</string>
+    <string name="movie_title">Movie Title</string>
+    <string name="written_by">Review Written By:</string>
+    <string name="review_author">SWITCH.</string>
+    <string name="click_button_description">Click Button</string>
+    <string name="no_reviews">No Reviews</string>
+    <string name="review_empty">No Reviews for this movie</string>
+    <string name="empty_trailers">No trailers for this movie</string>
+    <string name="no_internet">No Internet Connection</string>
+    <string name="favourites">Favourites</string>
+    <string name="poster_description">Movie Image</string>
+    <string name="star">star</string>
 </resources>

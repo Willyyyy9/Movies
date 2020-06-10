@@ -1,6 +1,9 @@
-package com.example.popularmovies;
+package com.example.popularmovies.loaders;
 
 import android.content.Context;
+
+import com.example.popularmovies.Movie;
+import com.example.popularmovies.QueryUtils;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -23,8 +26,7 @@ public class MovieLoader extends AsyncTaskLoader {
         if (url == null) {
             return null;
         }
-        ArrayList<Movie> result = QueryUtils.fetchMovieListData(url);
-        return result;
+        return QueryUtils.fetchMovieListData(url);
     }
     @Override
     protected void onStartLoading() {

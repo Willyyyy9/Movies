@@ -3,13 +3,19 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
     <item
         android:id="@+id/popularItem"
-        android:title="Popular Movies"
+        android:title="@string/Popular_title"
         app:showAsAction="never"
         android:orderInCategory="1"/>
     <item
         android:id="@+id/topRatedItem"
-        android:title="Top Rated Movies"
+        android:title="@string/Top_Rated_title"
         app:showAsAction="never"
         android:orderInCategory="2"/>
+
+    <item
+        android:id="@+id/favouritesItem"
+        android:title="@string/favourites"
+        app:showAsAction="never"
+        android:orderInCategory="3"/>
 
 </menu>

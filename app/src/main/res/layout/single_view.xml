@@ -16,10 +16,11 @@
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="15dp"
         android:layout_marginBottom="15dp"
-        android:text="Movie Title"
+        android:text="@string/movie_title"
         android:textColor="#172845"
         android:fontFamily="@font/aleo"
-        android:id="@+id/textView"/>
+        android:id="@+id/textView"
+        android:contentDescription="@string/poster_description"/>
 
 
 </LinearLayout>
