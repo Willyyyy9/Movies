@@ -26,13 +26,19 @@ In the application you can:
 * See the most popular and top-rated movies in a grid.
 * Sort the movies based on its popularity or its rating.
 * See all the details of the movie.
+* A user can tap a button to mark the movie as a Favorite. Tap the button on a favorite movie will unfavorite it.
+* Read reviews of a selected movie.
+* View and play trailers.
  
 
 
 This project is about combining various ideas and skills:
  * Fetch data from the Internet with theMovieDB API.
  * Use adapters and custom list layouts to populate list views.
- * Incorporate libraries to simplify the amount of code you need to write. <br/>
+ * Incorporate libraries to simplify the amount of code you need to write.
+ * Creating a database using Room.
+ * Handling unnecessary requeries through ViewModel and LiveData.
+ * Handling implicit intents.<br/>
 
 
 ## Gradle Configuration
